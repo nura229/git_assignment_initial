@@ -9,6 +9,7 @@ public class Main {
 			new MultiplicationSeries(),
 			new CircleVolum()
 	};
+	
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ThreadSubscriber sub : subscribers){
