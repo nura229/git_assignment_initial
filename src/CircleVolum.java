@@ -18,7 +18,7 @@ public class CircleVolum extends ThreadSubscriber implements  ObserverTest
 @Override
 public Boolean test() {
 	input = 5;
-	if (execute()=="523.8095238095239")
+	if (execute().equals("523.8095238095239"))
 	return true;
 	else
 		return false;
